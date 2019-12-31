@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-	name='document_similarity',
+	name='dosim',
 	version='0.0.1',
 	python_requires='>=3.5',
 
@@ -17,7 +17,7 @@ setup(
 	],
 	entry_points={
 		'console_scripts': [
-			'doc-sim=document_similarity.document_similarity:main',
+			'docsim=docsim.docsim:main',
 		],
 	},
 )
